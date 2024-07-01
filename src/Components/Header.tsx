@@ -29,7 +29,10 @@ export const Header = () => {
 
         <div className="relative mt-1">
           <div >
-            <MagnifyingGlassIcon className="absolute top-2 left-2 h-5 w-5 text-gray-500"/>
+            <MagnifyingGlassIcon 
+            className="absolute top-2 left-2 h-5 w-5 text-gray-500"
+            stroke-width="2"
+            />
           </div>
           <input
             placeholder="Search"
@@ -40,9 +43,15 @@ export const Header = () => {
 
        
         <div className="flex space-x-4 items-center">
-          <HomeIcon className="h-6 w-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out hidden md:inline-flex" />
+          <HomeIcon 
+          className="h-6 w-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out hidden md:inline-flex"
+          stroke-width="2" 
+          />
           
-          <PlusCircleIcon className="h-6 w-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out" />
+          <PlusCircleIcon 
+          className="h-6 w-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out" 
+          stroke-width="2"
+          />
           
           <img
             className="h-10 rounded-full cursor-pointer"
