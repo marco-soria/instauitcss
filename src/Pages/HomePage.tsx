@@ -11,8 +11,10 @@ export const HomePage = () => {
           <Post />
         </section>
         <section className="hidden md:inline-grid md:col-span-1">
+          <div className="fixed w-[380px] flex flex-col">
           <MiniProfile />
           <Suggestions />
+          </div>
         </section>
       </main>
   )
